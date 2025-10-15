@@ -31,7 +31,7 @@ export function ResponsibleAIDialog({ children }: ResponsibleAIDialogProps) {
             <ul className="list-disc list-inside mt-2 space-y-1">
               <li><strong>Transparency:</strong> We strive to provide clear, accessible explanations of how our AI functions and is trained.</li>
               <li><strong>Fairness and Non-Discrimination:</strong> We actively mitigate bias in data and models to ensure equitable outcomes.</li>
-              <li><strong>Accountability:</strong> We take responsibility for our models' behavior and allow for oversight and redress mechanisms.</li>
+              <li><strong>Accountability:</strong> We take responsibility for our models&apos; behavior and allow for oversight and redress mechanisms.</li>
             </ul>
           </div>
 
@@ -71,7 +71,7 @@ export function ResponsibleAIDialog({ children }: ResponsibleAIDialogProps) {
 
           <div>
             <h3 className="font-semibold text-neural-dark mb-2">7. Governance and Compliance</h3>
-            <p>We stay aligned with global AI regulatory frameworks, including the EU AI Act, India's Digital Personal Data Protection Act, and emerging best practices from industry consortiums.</p>
+            <p>We stay aligned with global AI regulatory frameworks, including the EU AI Act, India&apos;s Digital Personal Data Protection Act, and emerging best practices from industry consortiums.</p>
           </div>
         </div>
       </DialogContent>

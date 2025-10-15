@@ -27,7 +27,7 @@ export function DisclaimerDialog({ children }: DisclaimerDialogProps) {
         <div className="space-y-6 text-sm text-neural-text">
           <div>
             <h3 className="font-semibold text-neural-dark mb-2">1. Platform in Beta Phase</h3>
-            <p>This website, including all features, content, and functionality (collectively, the "Platform"), is operated by NeuralArc Global Pvt Ltd ("NeuralArc", "we", "us", or "our") and is currently made available in beta for testing, evaluation, and limited public preview. The Platform is provided strictly on an "as is," "as available," and experimental basis. NeuralArc makes no representations or warranties of any kind, express or implied, regarding the reliability, accuracy, or completeness of the Platform at this stage.</p>
+            <p>This website, including all features, content, and functionality (collectively, the &quot;Platform&quot;), is operated by NeuralArc Global Pvt Ltd (&quot;NeuralArc&quot;, &quot;we&quot;, &quot;us&quot;, or &quot;our&quot;) and is currently made available in beta for testing, evaluation, and limited public preview. The Platform is provided strictly on an &quot;as is,&quot; &quot;as available,&quot; and experimental basis. NeuralArc makes no representations or warranties of any kind, express or implied, regarding the reliability, accuracy, or completeness of the Platform at this stage.</p>
           </div>
 
           <div>
@@ -59,7 +59,7 @@ export function DisclaimerDialog({ children }: DisclaimerDialogProps) {
 
           <div>
             <h3 className="font-semibold text-neural-dark mb-2">5. Third-Party Services and Hosting</h3>
-            <p>This Platform is hosted on infrastructure provided by Vercel Inc. NeuralArc does not control Vercel's operations, security, or data policies. By using this Platform, you consent to your data being processed and stored by Vercel and its subprocessors in accordance with their respective terms of service and privacy policies. The Platform may also link to or incorporate third-party services or tools. NeuralArc accepts no responsibility or liability for any third-party content, data practices, or service reliability.</p>
+            <p>This Platform is hosted on infrastructure provided by Vercel Inc. NeuralArc does not control Vercel&apos;s operations, security, or data policies. By using this Platform, you consent to your data being processed and stored by Vercel and its subprocessors in accordance with their respective terms of service and privacy policies. The Platform may also link to or incorporate third-party services or tools. NeuralArc accepts no responsibility or liability for any third-party content, data practices, or service reliability.</p>
           </div>
 
           <div>

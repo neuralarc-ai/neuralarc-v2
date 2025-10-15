@@ -58,7 +58,7 @@ export function TermsDialog({ children }: TermsDialogProps) {
 
           <div>
             <h3 className="font-semibold text-neural-dark mb-2">6. Disclaimers</h3>
-            <p>The Services are provided "as is" and "as available." NeuralArc makes no warranties or representations, express or implied, regarding the Services, including but not limited to merchantability, fitness for a particular purpose, accuracy, or non-infringement.</p>
+            <p>The Services are provided &quot;as is&quot; and &quot;as available.&quot; NeuralArc makes no warranties or representations, express or implied, regarding the Services, including but not limited to merchantability, fitness for a particular purpose, accuracy, or non-infringement.</p>
           </div>
 
           <div>
