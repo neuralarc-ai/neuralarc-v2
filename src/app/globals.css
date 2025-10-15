@@ -89,6 +89,7 @@
   --neural-light-green: oklch(0.9136 0.0418 151.8);
   --neural-text: oklch(0.3909 0.0187 90.4);
   --neural-dark: oklch(0.2809 0 0);
+  --helium-light-green: oklch(0.9136 0.0418 151.8);
 }
 
 .dark {
@@ -129,18 +130,28 @@
   --neural-light-green: oklch(0.9136 0.0418 151.8);
   --neural-text: oklch(0.3909 0.0187 90.4);
   --neural-dark: oklch(0.2809 0 0);
+  --helium-light-green: oklch(0.9136 0.0418 151.8);
 }
 
 @layer base {
   * {
     @apply border-border outline-ring/50;
+    scroll-behavior: smooth;
+  }
+  html {
+    scroll-behavior: smooth;
+    scroll-snap-type: y proximity;
   }
   body {
-    @apply bg-neural-white text-neural-text;
+    @apply bg-neural-white text-neural-text font-manrope;
+    scroll-behavior: smooth;
   }
 }
 
 @layer utilities {
+  .font-manrope {
+    font-family: var(--font-manrope);
+  }
   .bg-neural-green {
     background-color: var(--neural-green);
   }
@@ -161,5 +172,14 @@
   }
   .border-neural-orange {
     border-color: var(--neural-orange);
+  }
+  .border-helium-light-green {
+    border-color: var(--helium-light-green);
+  }
+  .bg-neural-dark {
+    background-color: var(--neural-dark);
+  }
+  .text-neural-dark {
+    color: var(--neural-dark);
   }
 }
