@@ -8,7 +8,7 @@ export default function Hero() {
     <div className="h-full flex overflow-hidden">
       {/* Left Section - Light Background */}
       <motion.div 
-        className="w-3/5 bg-neural-white flex flex-col justify-center px-4 lg:px-8 xl:px-16 py-4 xl:py-12"
+        className="w-full lg:w-3/5 bg-neural-white flex flex-col justify-center px-4 lg:px-8 xl:px-16 py-4 xl:py-12"
         initial={{ opacity: 0, y: -100 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
@@ -113,9 +113,9 @@ export default function Hero() {
         </motion.div>
       </motion.div>
 
-      {/* Right Section - Dark Green Background */}
+      {/* Right Section - Dark Green Background - Hidden on tablet and below */}
       <motion.div 
-        className="w-2/5 bg-neural-green flex items-center justify-center p-8"
+        className="hidden lg:flex w-2/5 bg-neural-green items-center justify-center p-8"
         initial={{ opacity: 0, x: 100 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
