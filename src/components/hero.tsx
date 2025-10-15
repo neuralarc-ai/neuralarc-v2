@@ -1,9 +1,13 @@
 "use client";
 
+import { useState } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import { ContactModal } from "./contact-modal";
 
 export default function Hero() {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
   return (
     <div className="h-full flex overflow-hidden">
       {/* Left Section - Light Background */}
@@ -102,13 +106,15 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.8 }}
           >
             <span className="text-neural-green">Looking to build a customised AI product? </span>
-            <motion.span 
-              className="text-neural-orange"
+            <motion.button 
+              onClick={() => setIsModalOpen(true)}
+              className="text-neural-orange underline hover:text-orange-600 cursor-pointer bg-transparent border-none p-0"
               whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
               transition={{ duration: 0.2 }}
             >
               Reach out to us and get started!
-            </motion.span>
+            </motion.button>
           </motion.div>
         </motion.div>
       </motion.div>
@@ -135,6 +141,12 @@ export default function Hero() {
           />
         </motion.div>
       </motion.div>
+
+      {/* Contact Modal */}
+      <ContactModal 
+        isOpen={isModalOpen} 
+        onClose={() => setIsModalOpen(false)} 
+      />
     </div>
   );
 }
