@@ -328,7 +328,7 @@ export function ContactModal({ isOpen, onClose }: ContactModalProps) {
               </div>
               
               <p className="text-lg text-gray-700 mb-6">
-                Thanks for contacting us! We'll review your message and get back to you soon.!!
+                Thanks for contacting us! We&apos;ll review your message and get back to you soon.!!
               </p>
 
               <motion.button

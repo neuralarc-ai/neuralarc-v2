@@ -1,7 +1,6 @@
 import Hero from "@/components/hero";
 import Helium from "@/components/helium";
 import HeliumMobile from "@/components/helium-mobile";
-import Footer from "@/components/footer";
 
 export default function Home() {
   return (
