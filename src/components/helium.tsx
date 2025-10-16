@@ -65,10 +65,11 @@ export default function Helium() {
             >
               <Image
                 src="/helium.png"
-                alt="Helium AI Application Interface"
+                alt="Helium AI Enterprise Platform - Adaptive Intelligence Model interface showing business automation and AI orchestration dashboard"
                 width={800}
                 height={600}
                 className="w-full h-auto object-contain"
+                loading="lazy"
               />
             </motion.div>
           </motion.div>

@@ -32,10 +32,11 @@ export default function Hero() {
           >
             <Image
               src="/neuralarc-logo.svg"
-              alt="NeuralArc Logo"
+              alt="NeuralArc - AI Enterprise Solutions Logo"
               width={60}
               height={60}
               className="w-fit h-10 xl:h-12"
+              priority
             />            
           </motion.div>
 
@@ -134,10 +135,11 @@ export default function Hero() {
         >
           <Image
             src="/hero-image.svg"
-            alt="Abstract geometric pattern"
+            alt="NeuralArc AI Enterprise Solutions - Abstract geometric visualization representing artificial intelligence and business automation"
             width={726}
             height={726}
             className="max-w-full max-h-full object-contain translate-x-1/4"
+            priority
           />
         </motion.div>
       </motion.div>
