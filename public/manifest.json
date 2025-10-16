@@ -1,0 +1,33 @@
+{
+  "name": "NeuralArc - AI Enterprise Solutions",
+  "short_name": "NeuralArc",
+  "description": "Transform business challenges into intelligent, automated solutions through custom AI development. We build bespoke micro-apps and AI automation systems.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/neuralarc-logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/neuralarc-logo.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/neuralarc-logo.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    }
+  ],
+  "categories": ["business", "productivity", "technology"],
+  "lang": "en",
+  "dir": "ltr",
+  "scope": "/",
+  "id": "neuralarc-ai-solutions"
+}
