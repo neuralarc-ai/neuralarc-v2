@@ -122,10 +122,13 @@ export default function Helium() {
                 <motion.a 
                   href="https://he2.ai" 
                   target="_blank"
-                  className="text-base xl:text-lg font-bold text-neural-orange underline hover:text-orange-600 transition-colors"
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                  transition={{ duration: 0.2 }}
+                  className="text-base xl:text-lg font-bold text-neural-orange underline hover:text-orange-600 transition-colors inline-block"
+                  whileHover={{ 
+                    scale: 1.02,
+                    textShadow: "0 0 8px rgba(251, 146, 60, 0.3)"
+                  }}
+                  whileTap={{ scale: 0.98 }}
+                  transition={{ duration: 0.2, ease: "easeOut" }}
                 >
                   Activate Helium Today
                 </motion.a>

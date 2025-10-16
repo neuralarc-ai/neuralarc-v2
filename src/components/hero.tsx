@@ -109,10 +109,13 @@ export default function Hero() {
             <span className="text-neural-green">Looking to build a customised AI product? </span>
             <motion.button 
               onClick={() => setIsModalOpen(true)}
-              className="text-neural-orange underline hover:text-orange-600 cursor-pointer bg-transparent border-none p-0"
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              transition={{ duration: 0.2 }}
+              className="text-neural-orange underline hover:text-orange-600 cursor-pointer bg-transparent border-none p-0 inline-block"
+              whileHover={{ 
+                scale: 1.02,
+                textShadow: "0 0 8px rgba(251, 146, 60, 0.3)"
+              }}
+              whileTap={{ scale: 0.98 }}
+              transition={{ duration: 0.2, ease: "easeOut" }}
             >
               Reach out to us and get started!
             </motion.button>
